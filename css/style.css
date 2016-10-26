@@ -1,0 +1,21 @@
+
+body {
+	font: 16px 'PT Sans Narrow','Arial' sans-serif;
+	line-height: 24px;
+	font-weight: normal;
+	background: url(../img/background.jpg) repeat; 
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 42px;
+	color: #000;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 30px;
+	color: #000;
+	font-weight: bold;
+}
