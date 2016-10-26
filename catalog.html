@@ -6,23 +6,21 @@
 	<!-- <link rel="stylesheet" href="#"> -->
 </head>
 <body>
-<!-- Насчет Шапки что-то не уверен, немного запутано  -->
 	<header class="main-header">
-		<div class="header-logo">
-				<!-- Обернул Лого в ссылку -->
-				<div class="container-center">
-					<a href="/">
-						<img src="http://placehold.it/150x100"> 
-					</a>
-				</div>
-			</div>
+	<!-- Центрирует всю шапку -->
 		<div class="container-center">
+			<div class="header-logo">
+				<!-- Обернул Лого в ссылку -->
+				<a href="/">
+					<img src="http://placehold.it/150x100"> 
+				</a>
+			</div>
 			<nav class="navigation">
 				<ul>
 					<li><a href="#">Информация</a></li>
 					<li><a href="#">Новости</a></li>
 					<li><a href="#">Прайс-лист</a></li>
-					<li><a href="#">Магазин</a></li>
+					<li class="active"><a href="#">Магазин</a></li>
 					<li><a href="#">Контакты</a></li>
 				</ul>
 			</nav>
@@ -33,9 +31,9 @@
 	</header>
 	<div class="main-content">
 		<div class="container-center">
-		<!-- Заголовок страницы -->
+			<!-- Заголовок страницы -->
 			<h1 class="content-title">Средства для ухода</h1>
-		<!-- Хлебные крошки -->
+			<!-- Хлебные крошки -->
 			<ul class="breadcrumbs">
 				<li><a href="#">Главная</a></li>
 				<li><a href="#">Магазин</a></li>
@@ -45,7 +43,7 @@
 			<!-- Левая колонка фильтров -->
 				<div class="column-filter">
 					<h2 class="column-left-title">Производители:</h2>
-					<form>
+					<form class="filter-forms" action="#" method="get">
 						<input type="checkbox" checked id="Baxter of California" name="Baxter of California" value="1">
 						<label for="Baxter of California">Baxter of California</label>
 						<input type="checkbox" id="Mr Natty" name="Mr Natty" value="2">
@@ -58,68 +56,91 @@
 						<label for="Murray’s">Murray’s</label>
 						<input type="checkbox" checked id="American Crew" name="American Crew" value="6">
 						<label for="American Crew">American Crew</label>
-					</form>
-				</div>
-				<div class="column-filter">
+
 					<h2 class="columns-left-title">Группы товаров:</h2>
-					<form>
+
 						<input type="radio" id="Razor-acces" name="Razor-acces">
 						<label for="Razor-acces">Бритвенные принадлежности</label>
 						<input type="radio" checked id="Care" name="Care">
 						<label for="Care">Средства для ухода</label>
 						<input type="radio" id="Accessories" name="Accessories">
 						<label for="Accessories">Аксессуары</label>
-						<input type="submit" class="btn-show" alt="Показать" value="Показать">
+						<input type="submit" class="btn" alt="Показать" value="Показать">
 					</form>
 				</div>
-			<!-- Правая колонка товаров -->
+				<!-- Правая колонка товаров -->
 				<div class="column-result">
 					<div class="catalog-item">
-						<img src="http://placehold.it/150x100">
-						<p class="price">2 900 РУБ.</p>
-						<a href="#" class="btn" alt="Купить">Купить</a>
+						<div class="catalog-item-image">
+							<img src="http://placehold.it/150x100">
+						</div>
+						<h3 class="catalog-title">Набор для путешествий  «Baxter of California»</h3>
+						<div class="price-item">
+							<div class="price">2 900 руб.</div>
+							<a href="#" class="btn">Купить</a>
+						</div>
 					</div>
 					<div class="catalog-item">
-						<img src="http://placehold.it/150x100">
-						<p class="price">750 РУБ.</p>
-						<a href="#" class="btn" alt="Купить">Купить</a>
+						<div class="catalog-item-image">
+							<img src="http://placehold.it/150x100">
+						</div>
+						<h3 class="catalog-title">Увлажняющий кондиционер  «Baxter of California»</h3>
+						<div class="price-item">
+							<div class="price">750 руб.</div>
+							<a href="#" class="btn">Купить</a>
+						</div>
 					</div>
 					<div class="catalog-item">
-						<img src="http://placehold.it/150x100">
-						<p class="price">290 РУБ.</p>
-						<a href="#" class="btn" alt="Купить">Купить</a>
+						<div class="catalog-item-image">
+							<img src="http://placehold.it/150x100">
+						</div>
+						<h3 class="catalog-title">Гель для волос «SUAVECITO»</h3>
+						<div class="price-item">
+							<div class="price">290 руб.</div>
+							<a href="#" class="btn">Купить</a>
+						</div>
 					</div>
 				</div>
+				<div class="column-right">
 					<div class="catalog-item">
 						<div class="catalog-item-image">
 							<img src="http://placehold.it/150x100">
 						</div>
-						<p class="price">500 РУБ.</p>
-						<a href="#" class="btn" alt="Купить">Купить</a>
+						<h3 class="catalog-title">Глина для укладки волос  «American crew»</h3>
+						<div class="price-item">
+							<div class="price">500 руб.</div>
+							<a href="#" class="btn">Купить</a>
+						</div>
 					</div>
 					<div class="catalog-item">
 						<div class="catalog-item-image">
 							<img src="http://placehold.it/150x100">
 						</div>
-						<p class="price">300 РУБ.</p>
-						<a href="#" class="btn" alt="Купить">Купить</a>
+						<h3 class="catalog-title">Гель для волос «AMERICAN CREW»</h3>
+						<div class="price-item">
+							<div class="price">300 руб.</div>
+							<a href="#" class="btn">Купить</a>
+						</div>
 					</div>
 					<div class="catalog-item">
 						<div class="catalog-item-image">
 							<img src="http://placehold.it/150x100">
 						</div>
-						<p class="price">3 900 РУБ.</p>
-						<a href="#" class="btn" alt="Купить">Купить</a>
+						<h3 class="catalog-title">Набор для бритья «Baxter of California»</h3>
+						<div class="price-item">
+							<div class="price">3 900 руб.</div>
+							<a href="#" class="btn">Купить</a>
+						</div>
 					</div>
 				</div>
 			</div>	
-		<!-- Навигация по страницам -->
+			<!-- Навигация по страницам -->
 			<div class="pagination">
 				<ul class="pagination-page">
-					<li>>1</li>
+					<li><a href="#" class="btn">1</a></li>
 					<li class="page-active">2</li>
-					<li>3</li>
-					<li>4</li>
+					<li><a href="#" class="btn">3</a></li>
+					<li><a href="#" class="btn">4</a></li>
 				</ul>
 			</div>
 		</div>

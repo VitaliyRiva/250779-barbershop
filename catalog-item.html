@@ -8,15 +8,14 @@
 <body>
 <!-- Насчет Шапки что-то не уверен, немного запутано  -->
 	<header class="main-header">
-		<div class="header-logo">
-			<!-- Обернул Лого в ссылку -->
-			<div class="container-center">
-				<a href="/">
-					<img src="http://placehold.it/150x100"> 
+		<!-- Центрирует всю шапку -->
+		<div class="container-center">
+			<div class="header-logo">
+				<!-- Обернул Лого в ссылку -->
+				<a href="#">
+					<img src="http://placehold.it/150x100">
 				</a>
 			</div>
-		</div>
-		<div class="container-center">
 			<nav class="navigation">
 				<ul>
 					<li><a href="#">Информация</a></li>
@@ -33,58 +32,51 @@
 	</header>
 <!-- Заголовок страницы -->
 	<div class="main-content">
-		<h1 class="content-title">>Набор для путешествий «Baxter of California»</h1>
-		<!-- Хлебные крошки -->
-		<ul class="breadcrumbs">
-			<li><a href="#">Главная</a></li>
-			<li><a href="#">Магазин</a></li>
-			<li><a href="#">Средства для ухода</a></li>
-			<li><a href="#">Набор для путешествий «Baxter of California»</a></li>
-		</ul>	
 		<div class="container-center">
-		<!-- Поменял названия классов сделал обертки для главной и для трех превью -->
+			<h1 class="content-title">Набор для путешествий «Baxter of California»</h1>
+			<!-- Хлебные крошки -->
+			<ul class="breadcrumbs">
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Магазин</a></li>
+				<li><a href="#">Средства для ухода</a></li>
+				<li><a href="#">Набор для путешествий «Baxter of California»</a></li>
+			</ul>	
+			<!-- Поменял названия классов сделал обертки для главной и для трех превью -->
 			<div class="product-gallery">
-				<div class="container-gallery-main">
+				<div class="product-gallery-main">
 					<img src="http://placehold.it/150x100">
 				</div>
-				<div class="main-preview">
-					<div class="preview-image">
+				<div class="product-gallery-previews">
+					<div class="product-gallery-preview">
 						<img src="http://placehold.it/150x100">
 					</div>
-					<div class="preview-image">
+					<div class="product-gallery-preview">
 						<img src="http://placehold.it/150x100">
 					</div>
-					<div class="preview-image">
+					<div class="product-gallery-preview">
 						<img src="http://placehold.it/150x100">
 					</div>
 				</div>
 			</div>
 			<div class="product-description">
+			<!-- Он оборачивает весь правый блок -->
 				<div class="container-product-main">
 					<div class="info">
-						<p>Есть в наличии</p>
-						<span>АРТИКУЛ:DEXTER-AE</span>
+						<span class="status">Есть в наличии</span>
+						<span class="art">Артикул: Dexter-ae</span>
 					</div>
-					<div class="product-text">
 						<p>Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
+					<div class="price-item">
+						<div class="price">2 900 руб.</div>
+						<a href="#" class="btn">Купить</a>
 					</div>
-					<div class="product-price">
-					<!-- Если это не  p, то что-же тогда ?) -->
-						<p class="price">2 900 РУБ</p>
-						<a href="#" class="btn" alt="Купить">Купить</a>
-					</div>
-					<div class="set">
-						<h2>В набор входят:</h2>
-					</div>
-					<div class="set-item">
-						<ul>
-							<li>Средство для умывания (50 мл)</li>
-							<li>Увлажняющий крем (50 мл)</li>
-							<li>Крем для бритья (50 мл)</li>
-							<li>Крем после бритья, шампунь (50 мл)</li>
-							<li>Удобная кожаная косметичка</li>
-						</ul>
-					</div>
+					<ul>
+						<li>Средство для умывания (50 мл)</li>
+						<li>Увлажняющий крем (50 мл)</li>
+						<li>Крем для бритья (50 мл)</li>
+						<li>Крем после бритья, шампунь (50 мл)</li>
+						<li>Удобная кожаная косметичка</li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -110,7 +102,7 @@
 		<p>Разработано</p>
 			<a class="copyright-btn" href="#">HTMLACADEMY.RU</a>
 		</div>
-	</footer>	
+	</footer>
 </body>
 </html>
 
