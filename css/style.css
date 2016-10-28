@@ -4,7 +4,7 @@ body {
 	font-family:"PT Sans Narrow","Arial", sans-serif;
 	line-height: 24px;
 	font-weight: normal;
-	background: url(../img/background.jpg) repeat; 
+	background: url('../img/background.jpg') repeat; 
 }
 
 h1 {
