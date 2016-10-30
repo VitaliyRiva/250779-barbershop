@@ -7,6 +7,12 @@ body {
 	background: url('../img/background.jpg') repeat; 
 }
 
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 h1 {
 	font-size: 30px;
 	line-height: 42px;
@@ -19,4 +25,141 @@ h2 {
 	line-height: 30px;
 	color: #000;
 	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container-center {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	outline: 1px solid #C43408;
+}
+
+.header-logo {
+	width: 120px;
+	float: left;
+	outline: 1px solid #CF2EC9;
+}
+
+.navigation {
+	width: 780px;
+	float: left;
+	outline: 1px solid #2EC710;
+}
+
+.navigation li {
+	display: inline-block;
+}
+
+.user-block {
+	float: right;
+	outline: 1px solid #104CC7;
+}
+
+.content-title {
+	margin-top: 50px;
+	outline: 1px solid #23E8DC;
+}
+
+.breadcrumbs {
+	margin-bottom: 60px;
+	outline: 1px solid #2EC710;
+}
+.breadcrumbs li {
+	display: inline-block;
+}
+
+.filter-content {
+	outline: 1px solid #2EC710;
+}
+
+.filter-content legend {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.filter-content label {
+	display: block;
+}
+
+.column-filter {
+	width: 170px;
+	float: left;
+	outline: 1px solid #2EC710;
+}
+
+.column-result {
+	width: 730px;
+	float: right;
+	outline: 1px solid #2EC710;
+}
+
+.catalog-item {
+	width: 220px;
+	margin-right: 20px;
+	margin-top: 20px;
+	display: inline-block;
+	outline: 1px solid #2EC710;
+}
+
+.catalog-title {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.catalog-item-image {
+	outline: 1px solid #2EC710;
+}
+.price-item {
+	outline: 1px solid #2EC710;
+}
+
+.price {
+	display: inline-block;
+    margin-left: 16px;
+    margin-bottom: 15px;
+    padding-top: 14px;
+    outline: 1px solid #2EC710;
+}
+
+.btn {
+	text-decoration: none;
+	outline: 1px solid #2EC710;
+}
+
+
+.pagination li {
+
+	display: inline-block;
+}
+
+.main-footer {
+	outline: 1px solid #C43408;
+}
+
+.contacts {
+	width: 320px;
+	float: left;
+	margin-right: 80px;
+	outline: 1px solid #2EC710;
+}
+
+.contacts a {
+	text-decoration: underline;
+}
+
+.social {
+	width: 160px;
+	float: left;
+	outline: 1px solid #2EC710;
+}
+
+.copyright {
+	width: 140px;
+	float: right;
+	outline: 1px solid #2EC710;
 }
