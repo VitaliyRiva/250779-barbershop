@@ -49,6 +49,10 @@ a {
 	float: left;
 	outline: 1px solid #2EC710;
 }
+.navigation ul {
+	padding: 0;
+	margin: 0;
+}
 
 .navigation li {
 	display: inline-block;
@@ -115,6 +119,7 @@ a {
 	outline: 1px solid #2EC710;
 }
 .price-item {
+	margin-bottom: 60px;
 	outline: 1px solid #2EC710;
 }
 
@@ -138,6 +143,8 @@ a {
 }
 
 .main-footer {
+	padding-top: 60px;
+    margin-top: 60px;
 	outline: 1px solid #C43408;
 }
 
@@ -162,4 +169,57 @@ a {
 	width: 140px;
 	float: right;
 	outline: 1px solid #2EC710;
+}
+
+/*Каталог Отдельноо товара*/
+
+.product-gallery {
+	float: left;
+	width: 460px;
+	outline: 1px solid #2EC710;
+}
+
+.product-gallery-main {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.product-gallery-preview {
+	float: left;
+	width: 140px;
+	margin-right: 20px;
+}
+.product-gallery-preview:last-child {
+	margin-right: 0px;
+}
+
+.product-description {
+	float: right;
+	width: 390px;
+	outline: 1px solid #2EC710;
+}
+
+span.art {
+	float:right;
+	outline: 1px solid #2EC710;
+}
+
+
+.container-product-main p {
+	font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.item-title {
+	font-size: 24px;
+	line-height: 30px;
+	padding-bottom: 38px;
+}
+
+.item-set {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
